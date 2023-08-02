@@ -77,4 +77,33 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
     - Create SMB volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
     - Create Dual-protocol volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
 
+**Test Data Preparation:**
+- Generate or gather representative test data for your workload.
+- Determine the size and characteristics of the data required for testing.
+- Prepare the test data and ensure it's ready for use.
+
+**Workload Configuration:**
+- Determine the workload characteristics you want to test, such as IOPS, throughput, latency, and concurrency.
+- Configure the virtual machines (VMs) or other infrastructure to host the desired workload.
+- Install and configure any necessary software or tools required.
+
+**Performance Testing:**
+- Start the workload generation tools and configure them to target the Azure NetApp Files volumes.
+- Monitor and measure key performance metrics, such as IOPS, throughput, and latency.
+- Gradually increase the workload to assess the scalability and performance limits of Azure NetApp Files.
+- Analyse the performance data and compare it against your requirements and expectations.
+
+**Advanced Feature Testing:**
+- Explore and test advanced features of Azure NetApp Files, such as snapshotting, cloning, and replication.
+- Validate the behaviour and performance of these features in your specific use cases.
+- Test any integration points with other Azure services or applications.
+
+**Documentation and Reporting:**
+- Document the entire PoC process, including the setup, configuration, and test results.
+- Summarise the findings and observations from each test scenario.
+- Provide recommendations and insights based on the results.
+- Create a comprehensive report that includes the objectives, methodology, results, and conclusions of the PoC.
+
+Remember to follow best practices, consult Azure NetApp Files documentation, and engage with the NetApp Azure CSA team during the PoC.
+
 
