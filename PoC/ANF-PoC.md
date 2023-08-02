@@ -4,7 +4,7 @@ The purpose of this document of assist with the planning of a Proof of Concept (
 
 It has been produced as a guide to enable a successful deployment, test and validation of the service.
 
-## Prerequisites & Required Resources
+## Prerequisites & Considerations
 
 The following is a list of prerequisites required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
@@ -50,4 +50,31 @@ The following is a list of prerequisites required to support the Proof of Concep
 
 **Documentation and Reporting:**
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
+
+## Proof of Concept
+Below is a recommended workflow to follow to for Azure NetApp Files PoC.
+
+**Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
+
+**Setup of PoC Environment:**
+- It's important to review the Azure NetApp Files documentation and best practices to ensure a smooth implementation of the PoC and to address any additional prerequisites specific to your use case.
+- Create an Azure subscription or use an existing one.
+- Allocate Role Based Access Controls (RBAC) to users required to interact with the service
+- Define the region or regions where the PoC needs to run. Regional availability can be found here: [ANF Regional Availability](
+https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all)
+- Register the ANF resource provider within the chosen subscription. Details here [Register ANF Resource Provider](
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)
+- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet.
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet 
+•	Provision an Azure NetApp Files account in your chosen region(s)
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account 
+•	Configure Active Directory connection (optional, but required for SMB volumes)
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections 
+•	Create your capacity pool(s) as required
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool 
+•	Build your Azure NetApp Files volume(s) based on your requirements.
+o	Create NFS volume - https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes
+o	Create SMB volume - https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb 
+o	Create Dual-protocol volume - https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol 
+
 
