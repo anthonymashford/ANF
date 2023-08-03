@@ -7,7 +7,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 ### In this doucment you will find the following sections:
 <a name="Prereq"></a>[Prerequisites & Considerations](#Prereq)<br>
 <a name="PoCWorkflow"></a>[Proof of Concept Workflow](#PoCWorkflow)<br>
-<a name="TestData"></a>[Test Data Preparation](#TestData)<br>
+<a name="Test"></a>[Test Data Preparation](#Test)<br>
 <a name="Workload"></a>[Workload Configuration](#Workload)<br>
 <a name="Performance"></a>[Performance Testing](#Performance)<br>
 <a name="FeatureTesting"></a>[ANF Feature Testing](#FeatureTesting)<br>
@@ -100,7 +100,7 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 
 </p>
 
-<p id="TestData">
+<p id="Test">
 
 ## Test Data Preparation:
 - Generate or gather representative test data for your workload.
