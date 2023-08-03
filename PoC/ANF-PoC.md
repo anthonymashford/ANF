@@ -24,7 +24,7 @@ The following is a list of prerequisites & considersations required to support t
 
 ### Define Objectives and Requirements:
 - Clearly define the objectives of the PoC, such as functional testing, performance and scalability, backup and disaster recovery requirements
-- Identify the workload(s) to be tested, such as SAP, AVS, HPC, AVD or enterprise file shares.
+- Identify the workload(s) to be tested, such as SAP, AVS, HPC, AVD, Oracle, SQL or Enterprise File Shares.
 
 ### Stakeholders:
 - Identify key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, cloud platform teams.
