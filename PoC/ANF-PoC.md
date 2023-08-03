@@ -16,7 +16,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
 
 
-<p id="Prereq"></p> 
+<p id="Prereq">
 
 ## Prerequisites & Considerations
 
@@ -56,8 +56,6 @@ The following is a list of prerequisites & considersations required to support t
 ### Test Data: 
 - Gather or generate representative test data that aligns with your workload characteristics. This data should be ready for upload or use during the PoC.
 
-<p id="VMs"></p>
-
 ### Virtual Machines (VMs): 
 - Prepare the necessary Virtual Machines (VMs) to host the workload. Ensure that these resources are properly configured, including network connectivity to the Azure NetApp Files volumes.
 
@@ -67,7 +65,9 @@ The following is a list of prerequisites & considersations required to support t
 ### Documentation and Reporting:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
 
-<p id="PoCWorkflow"></p> 
+</p>
+
+<p id="PoCWorkflow">
 
 ## Proof of Concept Workflow
 Below is a recommended workflow to follow to for Azure NetApp Files PoC.
@@ -97,6 +97,8 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
     - Create NFS volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
     - Create SMB volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
     - Create Dual-protocol volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
+
+</p>
 
 <p id="TestData">
 
