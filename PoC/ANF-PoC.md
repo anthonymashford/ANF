@@ -59,7 +59,7 @@ The following is a list of prerequisites & considersations required to support t
 <p id="VMs"></p>
 
 ### Virtual Machines (VMs): 
-- Prepare the necessary VMs host the workload. Ensure that these resources are properly configured, including network connectivity to the Azure NetApp Files volumes.
+- Prepare the necessary Virtual Machines (VMs) to host the workload. Ensure that these resources are properly configured, including network connectivity to the Azure NetApp Files volumes.
 
 ### Monitoring and Performance Measurement:
 - Determine the metrics you want to monitor and measure during the PoC, such as IOPS, throughput, and latency. Set up the appropriate monitoring tools to capture and analyse these metrics.
