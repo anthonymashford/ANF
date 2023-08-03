@@ -13,6 +13,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="FeatureTesting"></a>[ANF Feature Testing](#FeatureTesting)<br>
 <a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
+<a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
 
 
 <p id="Prereq"></p> 
@@ -139,5 +140,10 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 
 ## Azure NetApp Files Solutions Architects:
 Remember to follow best practices, consult Azure NetApp Files documentation, and engage with the NetApp Azure CSA team during the PoC.
+
+<p id="ANFfaq"></p>
+
+## Azure NetApp Files FAQ:
+- [Azure NetApp Files FAQ](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs)
 
 
