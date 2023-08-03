@@ -27,7 +27,7 @@ The following is a list of prerequisites & considersations required to support t
 - Identify the workload(s) to be tested, such as SAP, AVS, HPC, AVD or enterprise file shares.
 
 ### Stakeholders:
-- Identified key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, Azure/Cloud platform teams.
+- Identify key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, cloud platform teams.
 
 ### Azure Subscription:
 - To support the PoC, an Azure subscription is required to create and manage Azure resources.
@@ -62,7 +62,7 @@ The following is a list of prerequisites & considersations required to support t
 - Prepare the necessary VMs host the workload. Ensure that these resources are properly configured, including network connectivity to the Azure NetApp Files volumes.
 
 ### Monitoring and Performance Measurement:
-- Determine the metrics you want to monitor and measure during the PoC, such as IOPS, throughput, and latency. Set up the appropriate monitoring and measurement tools to capture and analyse these metrics.
+- Determine the metrics you want to monitor and measure during the PoC, such as IOPS, throughput, and latency. Set up the appropriate monitoring tools to capture and analyse these metrics.
 
 ### Documentation and Reporting:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
@@ -120,7 +120,7 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 - Gradually increase the workload to assess the scalability and performance limits of Azure NetApp Files.
 - Analyse the performance data and compare it against your requirements and expectations.
 
-## ANF Feature Testing:
+## Feature Testing:
 
 <p id="FeatureTesting"></p>
 
