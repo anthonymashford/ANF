@@ -1,54 +1,54 @@
 # Azure NetApp Files Proof of Concept Planner
 
-The purpose of this document of assist with the planning of a Proof of Concept (PoC) for the Azure NetApp Files service.
+### Document Purpose
 
-It has been produced as a guide to enable a successful deployment, test and validation of the service.
+The purpose of this document is to assist with the planning of a Proof of Concept (PoC) of **Microsoft** Azure NetApp Files. It has been produced as a guide to enable a successful deployment, test and validation of the service.
 
 ## Prerequisites & Considerations
 
-The following is a list of prerequisites required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
+The following is a list of prerequisites & considersations required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
-**Define Objectives and Requirements:**
+### Define Objectives and Requirements:
 - Clearly define the objectives of the PoC, such as functional testing, performance and scalability, backup and disaster recovery requirements
 - Identify the workload(s) to be tested, such as SAP, AVS, HPC, AVD or enterprise file shares.
 
-**Stakeholders:**
+### Stakeholders:
 - Identified key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, Azure/Cloud platform teams.
 
-**Azure Subscription:**
+### Azure Subscription:
 - To support the PoC, an Azure subscription is required to create and manage Azure resources.
 
-**Geographical location(s):**
+### Geographical location(s):
 - Define the Azure Region(s) required to support the PoC.
 
-**Virtual Network (VNet):**
+### Virtual Network (VNet):
 - A Virtual Network (VNet) in Azure to provide network connectivity for your resources.
 
-**Subnet:**
+### Subnet:
 - A subnet within the VNet delegated to the Azure NetApp Files service.
 
-**Azure NetApp Files Account(s):**
+### Azure NetApp Files Account(s):
 - An Azure NetApp Files account in your Azure subscription. This account will serve as the logical container for your Azure NetApp Files resources.
 
-**Azure NetApp Files Capacity Pool:**
+### Azure NetApp Files Capacity Pool:
 - A Capacity Pool within your Azure NetApp Files account. Capacity Pools provide a way to manage and allocate storage capacity for your Azure NetApp Files volumes.
 
-**Azure NetApp Files Volumes:** 
+### Azure NetApp Files Volumes: 
 - One or more Azure NetApp Files volumes within your Capacity Pool. These volumes will be used to store your data and will be the target of your testing and validation.
 
-**Workload Generation Tools:**
+### Workload Generation Tools:
 - Identify and prepare the necessary workload generation tools or scripts to generate the desired workload on the Azure NetApp Files volumes. This could include tools specific to your workload type or general-purpose load testing tools.
 
-**Test Data:** 
+### Test Data: 
 - Gather or generate representative test data that aligns with your workload characteristics. This data should be ready for upload or use during the PoC.
 
-**Virtual Machines (VMs) or Infrastructure:** 
+### Virtual Machines (VMs) or Infrastructure: 
 - Prepare the necessary VMs or infrastructure to generate the workload. Ensure that these resources are properly configured, including network connectivity to the Azure NetApp Files volumes.
 
-**Monitoring and Performance Measurement:**
+### Monitoring and Performance Measurement:
 - Determine the metrics you want to monitor and measure during the PoC, such as IOPS, throughput, and latency. Set up the appropriate monitoring and measurement tools to capture and analyse these metrics.
 
-**Documentation and Reporting:**
+### Documentation and Reporting:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
 
 ## Proof of Concept
@@ -56,10 +56,13 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 
 **Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
 
-**Setup of PoC Environment:**
+### Creation of the PoC Environment:
 - It's important to review the Azure NetApp Files documentation and best practices to ensure a smooth implementation of the PoC and to address any additional prerequisites specific to your use case.
+
 - Create an Azure subscription or use an existing one.
-- Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service
+
+- Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
+
 - Define the region or regions where the PoC needs to run. Regional availability can be found here: [ANF Regional Availability](
 https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all)
 - Register the ANF resource provider within the chosen subscription(s). Details here [Register ANF Resource Provider](
@@ -77,28 +80,28 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
     - Create SMB volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
     - Create Dual-protocol volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
 
-**Test Data Preparation:**
+### Test Data Preparation:
 - Generate or gather representative test data for your workload.
 - Determine the size and characteristics of the data required for testing.
 - Prepare the test data and ensure it's ready for use.
 
-**Workload Configuration:**
+### Workload Configuration:
 - Determine the workload characteristics you want to test, such as IOPS, throughput, latency, and concurrency.
 - Configure the virtual machines (VMs) or other infrastructure to host the desired workload.
 - Install and configure any necessary software or tools required.
 
-**Performance Testing:**
+### Performance Testing:
 - Start the workload generation tools and configure them to target the Azure NetApp Files volumes.
 - Monitor and measure key performance metrics, such as IOPS, throughput, and latency.
 - Gradually increase the workload to assess the scalability and performance limits of Azure NetApp Files.
 - Analyse the performance data and compare it against your requirements and expectations.
 
-**Advanced Feature Testing:**
-- Explore and test advanced features of Azure NetApp Files, such as snapshotting, cloning, and replication.
+### Advanced Feature Testing:
+- Explore and test advanced features of Azure NetApp Files, such as snapshotting, cloning, replication and backup.
 - Validate the behaviour and performance of these features in your specific use cases.
 - Test any integration points with other Azure services or applications.
 
-**Documentation and Reporting:**
+### Documentation and Reporting:
 - Document the entire PoC process, including the setup, configuration, and test results.
 - Summarise the findings and observations from each test scenario.
 - Provide recommendations and insights based on the results.
