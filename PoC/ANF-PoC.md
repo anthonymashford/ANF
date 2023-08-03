@@ -98,21 +98,25 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
     - Create SMB volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
     - Create Dual-protocol volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
 
-<p id="TestData"></p>
+<p id="TestData">
 
 ## Test Data Preparation:
 - Generate or gather representative test data for your workload.
 - Determine the size and characteristics of the data required for testing.
 - Prepare the test data and ensure it's ready for use.
 
-<p id="Workload"></p>
+</p>
+
+<p id="Workload">
 
 ## Workload Configuration:
 - Determine the workload characteristics you want to test, such as IOPS, throughput, latency, and concurrency.
 - Configure the virtual machines (VMs) or other infrastructure to host the desired workload.
 - Install and configure any necessary software or tools required.
 
-<p id="Performance"></p>
+</p>
+
+<p id="Performance">
 
 ## Performance Testing:
 - Start the workload generation tools and configure them to target the Azure NetApp Files volumes.
@@ -120,15 +124,19 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 - Gradually increase the workload to assess the scalability and performance limits of Azure NetApp Files.
 - Analyse the performance data and compare it against your requirements and expectations.
 
+</p>
+
 ## Feature Testing:
 
-<p id="FeatureTesting"></p>
+<p id="FeatureTesting">
 
 - Explore and test advanced features of Azure NetApp Files, such as snapshotting, cloning, replication and backup.
 - Validate the behaviour and performance of these features in your specific use cases.
 - Test any integration points with other Azure services or applications.
 
-<p id="Documentation"></p>
+</p>
+
+<p id="Documentation">
 
 ## Documentation and Reporting:
 - Document the entire PoC process, including the setup, configuration, and test results.
@@ -136,18 +144,23 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 - Provide recommendations and insights based on the results.
 - Create a comprehensive report that includes the objectives, methodology, results, and conclusions of the PoC.
 
-<p id="Architectures"></p>
+</p>
+
+<p id="Architectures">
 
 ## Azure NetApp Files Solutions Architects:
 Below is a link to the Azure NetApp Files Solution Architectures page. This page contains a list of solution architectures that have been tested and validated by the Azure NetApp Files team. These architectures can be used as a reference for your PoC.
 - [Azure NetApp Files Solution Architectures](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
 
+</p>
+
 Remember to follow best practices, consult Azure NetApp Files documentation, and engage with the NetApp Azure CSA team during the PoC.
 
-<p id="ANFfaq"></p>
+<p id="ANFfaq">
 
 ## Azure NetApp Files FAQ:
 Below is a link to the Azure NetApp Files FAQ page. This page contains a list of frequently asked questions and answers about Azure NetApp Files.
 - [Azure NetApp Files FAQ](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs)
 
+</p>
 
