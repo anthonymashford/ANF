@@ -67,13 +67,13 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all)
 - Register the ANF resource provider within the chosen subscription(s). Details here [Register ANF Resource Provider](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)
-- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Details here [Configure Azure networking for Azure NetApp Files](
+- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here [Configure Azure networking for Azure NetApp Files](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet)
-- Provision an Azure NetApp Files account in your chosen region(s) Details here [Create an Azure NetApp Files account](
+- Provision an Azure NetApp Files account in your chosen region(s). Link here [Create an Azure NetApp Files account](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)
-- Configure Active Directory connection (optional, but required for SMB volumes). details here [Create an Active Directory connection](
+- Configure Active Directory connection (optional, but required for SMB volumes). Link here [Create an Active Directory connection](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connection)
-- Create capacity pool(s) as required. Details here [Create a capacity pool](
+- Create capacity pool(s) as required. Link here [Create a capacity pool](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool)
 - Build Azure NetApp Files volume(s) based on your requirements.
     - Create NFS volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
