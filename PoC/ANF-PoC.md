@@ -139,11 +139,15 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 <p id="Architectures"></p>
 
 ## Azure NetApp Files Solutions Architects:
+Below is a link to the Azure NetApp Files Solution Architectures page. This page contains a list of solution architectures that have been tested and validated by the Azure NetApp Files team. These architectures can be used as a reference for your PoC.
+- [Azure NetApp Files Solution Architectures](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
+
 Remember to follow best practices, consult Azure NetApp Files documentation, and engage with the NetApp Azure CSA team during the PoC.
 
 <p id="ANFfaq"></p>
 
 ## Azure NetApp Files FAQ:
+Below is a link to the Azure NetApp Files FAQ page. This page contains a list of frequently asked questions and answers about Azure NetApp Files.
 - [Azure NetApp Files FAQ](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs)
 
 
