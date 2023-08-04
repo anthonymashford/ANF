@@ -143,6 +143,12 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 
 </p>
 
+<p id="Monitoring">
+
+## Monitoring Azure NetApp Files:
+- Monitor the Azure NetApp Files service using the Azure Portal, Azure Monitor, and Azure NetApp Files APIs.
+- 
+
 <p id="Documentation">
 
 ## Documentation and Reporting:
