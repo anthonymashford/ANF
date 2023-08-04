@@ -5,7 +5,7 @@
 The purpose of this document is to assist with the planning of a Proof of Concept (PoC) of **Microsoft** Azure NetApp Files. It has been produced as a guide to enable a successful deployment, test and validation of the service.
 
 ### In this doucment you will find the following sections:
-<a name="Prereq"></a>[Prerequisites & Considerations](#Prereq)<br>
+<a name="Considerations"></a>[Considerations](#Considerations)<br>
 <a name="PoCWorkflow"></a>[Proof of Concept Workflow](#PoCWorkflow)<br>
 <a name="Test"></a>[Test Data Preparation](#Test)<br>
 <a name="Workload"></a>[Workload Configuration](#Workload)<br>
@@ -16,9 +16,9 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
 
 
-<p id="Prereq">
+<p id="Considerations">
 
-## Prerequisites & Considerations
+## Considerations
 
 The following is a list of prerequisites & considersations required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
@@ -40,6 +40,11 @@ The following is a list of prerequisites & considersations required to support t
 
 ### Subnet:
 - A subnet within the VNet delegated to the Azure NetApp Files service.
+  
+### Authentication (Active Directory):
+- The creation of SMB volumes requires an Active Directory (AD) domain or Azure Active Directory Domain Services.
+- Ideally a domain controller in the same region as the Azure NetApp Files volumes. This can be an existing domain controller or a new one created for the PoC.
+- The domain controller must be accessible from the Azure NetApp Files subnet.
 
 ### Azure NetApp Files Account(s):
 - An Azure NetApp Files account in your Azure subscription. This account will serve as the logical container for your Azure NetApp Files resources.
