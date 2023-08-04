@@ -99,8 +99,8 @@ The following is a list of prerequisites & considersations required to support t
 
 ## Monitoring:
 <p id="Monitoring"></p>
-Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azure Monitor and Azure NetApp Files Metrics. Below are links to the Azure NetApp Files documentation for monitoring.<br>
-
+Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azure Monitor and Azure NetApp Files Metrics. Below are links to the Azure NetApp Files documentation for monitoring.
+<br>
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files' target='_blank'> Monitoring Azure NetApp Files</a>
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics' target='_blank'> Metrics for Azure NetApp Files</a>
 
