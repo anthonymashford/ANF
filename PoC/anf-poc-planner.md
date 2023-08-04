@@ -86,22 +86,17 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 
 - Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
 
-- Define the region or regions where the PoC needs to run. Regional availability can be found here: [ANF Regional Availability](
-https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all) 
-- Register the ANF resource provider within the chosen subscription(s). Details here [Register ANF Resource Provider](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)
-- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here [Configure Azure networking for Azure NetApp Files](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet)
-- Provision an Azure NetApp Files account in your chosen region(s). Link here [Create an Azure NetApp Files account](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)
-- Configure Active Directory connection (optional, but required for SMB volumes). Link here [Create an Active Directory connection](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections)
-- Create capacity pool(s) as required. Link here [Create a capacity pool](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool)
-- Deploy Azure NetApp Files volume(s) based on your requirements.
-    - Create NFS volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
-    - Create SMB volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
-    - Create Dual-protocol volume - [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
+- Define the region or regions where the PoC needs to run. Regional availability can be found here: <a href='https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all' target='_blank'> ANF Regional Availability</a>
+- Register the ANF resource provider within the chosen subscription(s). Details here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register' target='_blank'> Register ANF Resource Provider</a>
+- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet' target='_blank'> Configure Azure networking for Azure NetApp Files</a>
+- Provision an Azure NetApp Files account in your chosen region(s). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)' target='_blank'> Create an Azure NetApp Files account</a>
+- Configure Active Directory connection (optional, but required for SMB volumes). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections)' target='_blank'> Create Active Directory connections</a>
+- Create capacity pool(s) as required. Link here <a href='
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
+- Deploy Azure NetApp Files volume(s) based on your requirements. Assoicated links below:
+    - <a href='(https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)' target='_blank'> Create NFS volume</a>
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)' target='_blank'> Create dual protocol volume</a>
 
 </p>
 
@@ -147,8 +142,8 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 
 ## Monitoring:
 Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azure Monitor and Azure NetApp Files Metrics. Below are links to the Azure NetApp Files documentation for monitoring. 
-- [Montior Azure NetApp Files using Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files)
-- [Metrics for Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics)
+- <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files)' target='_blank'> Monitoring Azure NetApp Files</a>
+- <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics' target='_blank'> Azure NetApp Files Metrics</a>
 
 <p id="Documentation">
 
@@ -164,7 +159,7 @@ Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azur
 
 ## Azure NetApp Files Solutions Architects:
 Below is a link to the Azure NetApp Files Solution Architectures page. This page contains a list of solution architectures that have been tested and validated by the Azure NetApp Files team. These architectures can be used as a reference for your PoC.
-- [Azure NetApp Files Solution Architectures](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
+- <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures' target='_blank'> Azure NetApp Files Solution Architectures</a>
 
 </p>
 
@@ -174,7 +169,7 @@ Remember to follow best practices, consult Azure NetApp Files documentation, and
 
 ## Azure NetApp Files FAQ:
 Below is a link to the Azure NetApp Files FAQ page. This page contains a list of frequently asked questions and answers about Azure NetApp Files.
-- [Azure NetApp Files FAQ](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs)
+- <a href='https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs' target='_blank'> Azure NetApp Files FAQ</a>
 
 </p>
 
