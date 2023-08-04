@@ -42,7 +42,7 @@ The following is a list of prerequisites & considersations required to support t
 - A subnet within the VNet delegated to the Azure NetApp Files service.
   
 ### Authentication (Active Directory):
-- The creation of SMB volumes requires an Active Directory (AD) domain or Azure Active Directory Domain Services.
+- The creation of SMB volumes requires an Active Directory (AD) domain or Azure Active Directory Domain Services (AADDS).
 - Ideally a domain controller in the same region as the Azure NetApp Files volumes. This can be an existing domain controller or a new one created for the PoC.
 - The domain controller must be accessible from the Azure NetApp Files subnet.
 
