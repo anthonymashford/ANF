@@ -6,7 +6,6 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 
 ### In this doucment you will find the following sections:
 <a name="Considerations"></a>[Considerations](#Considerations)<br>
-<a name="PoCWorkflow"></a>[Proof of Concept Workflow](#PoCWorkflow)<br>
 <a name="Test"></a>[Test Data Preparation](#Test)<br>
 <a name="Workload"></a>[Workload Configuration](#Workload)<br>
 <a name="Performance"></a>[Performance Testing](#Performance)<br>
@@ -14,6 +13,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
+<a name="PoCWorkflow"></a>[Proof of Concept Workflow](#PoCWorkflow)<br>
 
 
 <p id="Considerations"></p>
@@ -70,31 +70,6 @@ The following is a list of prerequisites & considersations required to support t
 ### Documentation and Reporting:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
 
-<p id="PoCWorkflow"></p>
-
-## Proof of Concept Workflow
-Below is a recommended workflow to follow to for Azure NetApp Files PoC.
-
-**Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
-
-### Creation of the PoC Environment:
-- It's important to review the Azure NetApp Files documentation and best practices to ensure a smooth implementation of the PoC and to address any additional prerequisites specific to your use case.
-
-- Create an Azure subscription or use an existing one.
-
-- Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
-
-- Define the region or regions where the PoC needs to run. Regional availability can be found here: <a href='https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all' target='_blank'> ANF Regional Availability</a>
-- Register the ANF resource provider within the chosen subscription(s). Details here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register' target='_blank'> Register ANF Resource Provider</a>
-- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet' target='_blank'> Configure Azure networking for Azure NetApp Files</a>
-- Provision an Azure NetApp Files account in your chosen region(s). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account' target='_blank'> Create an Azure NetApp Files account</a>
-- Configure Active Directory connection (optional, but required for SMB volumes). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections' target='_blank'> Create Active Directory connections</a>
-- Create capacity pool(s) as required. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
-- Deploy Azure NetApp Files volume(s) based on your requirements. Assoicated links below:
-    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
-    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
-    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol' target='_blank'> Create dual protocol volume</a>
-
 <p id="Test"></p>
 
 ## Test Data Preparation:
@@ -134,7 +109,7 @@ Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azur
 
 <p id="Documentation"></p>
 
-## Documentation and Reporting:
+## Documentation of the PoC:
 - Document the entire PoC process, including the setup, configuration, and test results.
 - Summarise the findings and observations from each test scenario.
 - Provide recommendations and insights based on the results.
@@ -153,3 +128,28 @@ Remember to follow best practices, consult Azure NetApp Files documentation, and
 ## Azure NetApp Files FAQ:
 Below is a link to the Azure NetApp Files FAQ page. This page contains a list of frequently asked questions and answers about Azure NetApp Files.
 - <a href='https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs' target='_blank'> Azure NetApp Files FAQ</a>
+
+<p id="PoCWorkflow"></p>
+
+## Proof of Concept Workflow
+Below is a recommended workflow to follow to for Azure NetApp Files PoC.
+
+**Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
+
+### Creation of the PoC Environment:
+- It's important to review the Azure NetApp Files documentation and best practices to ensure a smooth implementation of the PoC and to address any additional prerequisites specific to your use case.
+
+- Create an Azure subscription or use an existing one.
+
+- Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
+
+- Define the region or regions where the PoC needs to run. Regional availability can be found here: <a href='https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all' target='_blank'> ANF Regional Availability</a>
+- Register the ANF resource provider within the chosen subscription(s). Details here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register' target='_blank'> Register ANF Resource Provider</a>
+- Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet' target='_blank'> Configure Azure networking for Azure NetApp Files</a>
+- Provision an Azure NetApp Files account in your chosen region(s). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account' target='_blank'> Create an Azure NetApp Files account</a>
+- Configure Active Directory connection (optional, but required for SMB volumes). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections' target='_blank'> Create Active Directory connections</a>
+- Create capacity pool(s) as required. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
+- Deploy Azure NetApp Files volume(s) based on your requirements. Assoicated links below:
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol' target='_blank'> Create dual protocol volume</a>
