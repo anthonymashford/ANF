@@ -15,10 +15,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
 <a name="PoCWorkflow"></a>[Example: Proof of Concept Workflow](#PoCWorkflow)<br>
 
-
-<p id="Considerations"></p>
-
-## Considerations
+## Considerations <p id="Considerations"></p>
 
 The following is a list of prerequisites & considersations required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
@@ -70,68 +67,50 @@ The following is a list of prerequisites & considersations required to support t
 ### Documentation and Reporting:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
 
-<p id="Test"></p>
-
-## Test Data Preparation:
+## Test Data Preparation: <p id="Test"></p>
 - Generate or gather representative test data for your workload.
 - Determine the size and characteristics of the data required for testing.
 - Prepare the test data and ensure it's ready for use.
 
-<p id="Workload"></p>
-
-## Workload Configuration:
+## Workload Configuration: <p id="Workload"></p>
 - Determine the workload characteristics you want to test, such as IOPS, throughput, latency, and concurrency.
 - Configure the virtual machines (VMs) or other infrastructure to host the desired workload.
 - Install and configure any necessary software or tools required.
 
-<p id="Performance"></p>
-
-## Performance Testing:
+## Performance Testing: <p id="Performance"></p>
 - Start the workload generation tools and configure them to target the Azure NetApp Files volumes.
 - Monitor and measure key performance metrics, such as IOPS, throughput, and latency.
 - Gradually increase the workload to assess the scalability and performance limits of Azure NetApp Files.
 - Analyse the performance data and compare it against your requirements and expectations.
 
-## Feature Testing:
-
-<p id="FeatureTesting"></p>
+## Feature Testing: <p id="FeatureTesting"></p>
 
 - Explore and test advanced features of Azure NetApp Files, such as snapshotting, cloning, replication and backup.
 - Validate the behaviour and performance of these features in your specific use cases.
 - Test any integration points with other Azure services or applications.
 
-<p id="Monitoring"></p>
-
-## Monitoring:
+## Monitoring: <p id="Monitoring"></p>
 Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azure Monitor and Azure NetApp Files Metrics. Below are links to the Azure NetApp Files documentation for monitoring. 
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files' target='_blank'> Monitoring Azure NetApp Files</a>
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics' target='_blank'> Metrics for Azure NetApp Files</a>
 
-<p id="Documentation"></p>
-
-## Documentation of the PoC:
+## Documentation of the PoC: <p id="Documentation"></p>
 - Document the entire PoC process, including the setup, configuration, and test results.
 - Summarise the findings and observations from each test scenario.
 - Provide recommendations and insights based on the results.
 - Create a comprehensive report that includes the objectives, methodology, results, and conclusions of the PoC.
 
-<p id="Architectures"></p>
-
-## Azure NetApp Files Solutions Architects:
+## Azure NetApp Files Solutions Architects: <p id="Architectures"></p>
 Below is a link to the Azure NetApp Files Solution Architectures page. This page contains a list of solution architectures that have been tested and validated by the Azure NetApp Files team. These architectures can be used as a reference for your PoC.
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures' target='_blank'> Azure NetApp Files Solution Architectures</a>
 
 Remember to follow best practices, consult Azure NetApp Files documentation, and engage with the NetApp Azure CSA team during the PoC.
 
-<p id="ANFfaq"></p>
-
-## Azure NetApp Files FAQ:
+## Azure NetApp Files FAQ: <p id="ANFfaq"></p>
 Below is a link to the Azure NetApp Files FAQ page. This page contains a list of frequently asked questions and answers about Azure NetApp Files.
 - <a href='https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs' target='_blank'> Azure NetApp Files FAQ</a>
 
-<p id="PoCWorkflow"></p>
-
-## Example: Proof of Concept Workflow
+## Example - Proof of Concept Workflow: <p id="PoCWorkflow"></p>
 Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 
 **Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
