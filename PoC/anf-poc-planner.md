@@ -13,7 +13,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
-<a name="PoCWorkflow"></a>[Example: Proof of Concept Workflow](#PoCWorkflow)<br>
+<a name="PoCWorkflow"></a>[Example - Proof of Concept Workflow](#PoCWorkflow)<br>
 
 ## Considerations <p id="Considerations"></p>
 
