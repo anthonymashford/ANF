@@ -89,8 +89,7 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 - Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet' target='_blank'> Configure Azure networking for Azure NetApp Files</a>
 - Provision an Azure NetApp Files account in your chosen region(s). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account' target='_blank'> Create an Azure NetApp Files account</a>
 - Configure Active Directory connection (optional, but required for SMB volumes). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections' target='_blank'> Create Active Directory connections</a>
-- Create capacity pool(s) as required. Link here <a href='
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
+- Create capacity pool(s) as required. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
 - Deploy Azure NetApp Files volume(s) based on your requirements. Assoicated links below:
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
