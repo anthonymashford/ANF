@@ -153,6 +153,6 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol' target='_blank'> Create dual protocol volume</a>
-- Mount the volumes on the required VMs:
+- Mount the volumes on the required VMs. Associated links below:
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-mount-unmount-volumes-for-virtual-machines#mount-nfs-volumes-on-linux-clients' target='_blank'> Mount NFS volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/mount-volumes-vms-smb' target='_blank'> Mount SMB volume</a>
