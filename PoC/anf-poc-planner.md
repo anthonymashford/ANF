@@ -1,4 +1,3 @@
-Click [here](https://www.geeksforgeeks.org/) {:target="_blank"} 
 # Azure NetApp Files Proof of Concept Planner
 
 ### Document Purpose
