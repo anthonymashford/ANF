@@ -87,7 +87,7 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 - Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
 
 - Define the region or regions where the PoC needs to run. Regional availability can be found here: [ANF Regional Availability](
-https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all)
+https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all) 
 - Register the ANF resource provider within the chosen subscription(s). Details here [Register ANF Resource Provider](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)
 - Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here [Configure Azure networking for Azure NetApp Files](
