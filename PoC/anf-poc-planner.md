@@ -13,7 +13,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
-<a name="PoCWorkflow"></a>[Proof of Concept Workflow](#PoCWorkflow)<br>
+<a name="PoCWorkflow"></a>[Example: Proof of Concept Workflow](#PoCWorkflow)<br>
 
 
 <p id="Considerations"></p>
@@ -29,7 +29,7 @@ The following is a list of prerequisites & considersations required to support t
 ### Stakeholders:
 - Identify key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, cloud platform teams.
 
-### Azure Subscription:
+### Azure Subscription(s):
 - An Azure subscription is required to create and manage Azure resources.
 
 ### Geographical location(s):
@@ -131,7 +131,7 @@ Below is a link to the Azure NetApp Files FAQ page. This page contains a list of
 
 <p id="PoCWorkflow"></p>
 
-## Proof of Concept Workflow
+## Example: Proof of Concept Workflow
 Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 
 **Note:** The following workflow is a guide only and may not be suitable for all PoC scenarios.
@@ -143,7 +143,7 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 
 - Allocate permissions using Role Based Access Control (RBAC) to users required to interact with the service.
 
-- Define the region or regions where the PoC needs to run. Regional availability can be found here: <a href='https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all' target='_blank'> ANF Regional Availability</a>
+- Select the region or regions where the PoC needs to run. Regional availability can be found here: <a href='https://azure.microsoft.com/en-gb/explore/global-infrastructure/products-by-region/?products=netapp&rar=true&regions=all' target='_blank'> ANF Regional Availability</a>
 - Register the ANF resource provider within the chosen subscription(s). Details here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register' target='_blank'> Register ANF Resource Provider</a>
 - Configure Azure networking. Utilise existing or create a Virtual Network (VNet) and delegated subnet. Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-delegate-subnet' target='_blank'> Configure Azure networking for Azure NetApp Files</a>
 - Provision an Azure NetApp Files account in your chosen region(s). Link here <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account' target='_blank'> Create an Azure NetApp Files account</a>
