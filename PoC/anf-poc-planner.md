@@ -18,7 +18,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 ## Considerations
 <p id="Considerations"></p>
 
-The following is a list of prerequisites & considersations required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
+The following is a list of considersations for the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
 ### Objectives and Requirements:
 - Clearly define the objectives of the PoC, such as functional testing, performance and scalability, backup and disaster recovery requirements
