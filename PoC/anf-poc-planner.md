@@ -22,7 +22,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 
 The following is a list of prerequisites & considersations required to support the Proof of Concept (PoC) for testing and validating Azure NetApp Files:
 
-### Define Objectives and Requirements:
+### Objectives and Requirements:
 - Clearly define the objectives of the PoC, such as functional testing, performance and scalability, backup and disaster recovery requirements
 - Identify the workload(s) to be tested, such as SAP, AVS, HPC, AVD, Oracle, SQL or Enterprise File Shares.
 
@@ -30,10 +30,10 @@ The following is a list of prerequisites & considersations required to support t
 - Identify key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, cloud platform teams.
 
 ### Azure Subscription:
-- To support the PoC, an Azure subscription is required to create and manage Azure resources.
+- An Azure subscription is required to create and manage Azure resources.
 
 ### Geographical location(s):
-- Define the Azure Region(s) required to support the PoC.
+- Define the Azure Region(s) where the PoC will be deployed. 
 
 ### Virtual Network (VNet):
 - A Virtual Network (VNet) in Azure to provide network connectivity for your resources.
