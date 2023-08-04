@@ -95,7 +95,7 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-de
 - Provision an Azure NetApp Files account in your chosen region(s). Link here [Create an Azure NetApp Files account](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)
 - Configure Active Directory connection (optional, but required for SMB volumes). Link here [Create an Active Directory connection](
-https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connection)
+https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections)
 - Create capacity pool(s) as required. Link here [Create a capacity pool](
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool)
 - Deploy Azure NetApp Files volume(s) based on your requirements.
@@ -147,7 +147,7 @@ https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-se
 
 ## Monitoring:
 Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azure Monitor and Azure NetApp Files Metrics. Below are links to the Azure NetApp Files documentation for monitoring. 
-- [Montior Azure NetApp Files using Azure Monitor](hhttps://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files)
+- [Montior Azure NetApp Files using Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-netapp-files/monitor-azure-netapp-files)
 - [Metrics for Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics)
 
 <p id="Documentation">
