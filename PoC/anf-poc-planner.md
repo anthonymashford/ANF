@@ -9,7 +9,7 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 <a name="Test"></a>[Test Data Preparation](#Test)<br>
 <a name="Workload"></a>[Workload Configuration](#Workload)<br>
 <a name="Performance"></a>[Performance Testing](#Performance)<br>
-<a name="FeatureTesting"></a>[ANF Feature Testing](#FeatureTesting)<br>
+<a name="FeatureTesting"></a>[Feature Testing](#FeatureTesting)<br>
 <a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
