@@ -94,7 +94,7 @@ Below is a recommended workflow to follow to for Azure NetApp Files PoC.
 - Create capacity pool(s) as required. Link here <a href='
 https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-set-up-capacity-pool' target='_blank'> Create capacity pools</a>
 - Deploy Azure NetApp Files volume(s) based on your requirements. Assoicated links below:
-    - <a href='(https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
+    - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes' target='_blank'> Create NFS volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb' target='_blank'> Create SMB volume</a>
     - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)' target='_blank'> Create dual protocol volume</a>
 
