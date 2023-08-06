@@ -113,7 +113,7 @@ Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azur
 - Provide recommendations and insights based on the results.
 - Create a comprehensive report that includes the objectives, methodology, results, and conclusions of the PoC.
 
-## Azure NetApp Files Solutions Architects:
+## Azure NetApp Files Solutions Architectures:
 <p id="Architectures"></p>
 
 Below is a link to the Azure NetApp Files Solution Architectures page. This page contains a list of solution architectures that have been tested and validated by the Azure NetApp Files team. These architectures can be used as a reference for your PoC.
