@@ -6,11 +6,12 @@ The purpose of this document is to assist with the planning of a Proof of Concep
 
 ### In this doucment you will find the following sections:
 <a name="Considerations"></a>[Considerations](#Considerations)<br>
-<a name="Test"></a>[Test Data Preparation](#Test)<br>
+<a name="Test"></a>[Test Data](#Test)<br>
 <a name="Workload"></a>[Workload Configuration](#Workload)<br>
 <a name="Performance"></a>[Performance Testing](#Performance)<br>
 <a name="FeatureTesting"></a>[Feature Testing](#FeatureTesting)<br>
-<a name="Documentation"></a>[Documentation and Reporting](#Documentation)<br>
+<a name="Documentation"></a>[Documenting the PoC](#Documenting)<br>
+<a name="Training"></a>[Training Material (Microsoft Learn)](#Training)<br>
 <a name="Architectures"></a>[Azure NetApp Files Solutions Architects](#Architectures)<br>
 <a name="ANFfaq"></a>[Azure NetApp Files FAQ](#ANFfaq)<br>
 <a name="PoCWorkflow"></a>[Example - Proof of Concept Workflow](#PoCWorkflow)<br>
@@ -65,10 +66,10 @@ The following is a list of considersations for the Proof of Concept (PoC) for te
 ### Monitoring and Performance Measurement:
 - Determine the metrics you want to monitor and measure during the PoC, such as IOPS, throughput, and latency. Set up the appropriate monitoring tools to capture and analyse these metrics.
 
-### Documentation and Reporting:
+### Documenting the PoC:
 - Document the PoC setup, configuration, test results, and observations. Define the structure for your final PoC report, including sections for objectives, methodology, results, and conclusions.
 
-## Test Data Preparation:
+## Test Data:
 <p id="Test"></p>
 
 - Generate or gather representative test data for your workload.
@@ -106,12 +107,24 @@ Enable monitoring of the Azure NetApp Files service using the Azure Portal, Azur
 - <a href='https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics' target='_blank'> Metrics for Azure NetApp Files</a>
 
 ## Documentation of the PoC:
-<p id="Documentation"></p>
+<p id="Documenting"></p>
 
 - Document the entire PoC process, including the setup, configuration, and test results.
 - Summarise the findings and observations from each test scenario.
 - Provide recommendations and insights based on the results.
 - Create a comprehensive report that includes the objectives, methodology, results, and conclusions of the PoC.
+
+## Azure NetApp Files Training (Microsoft Learn):
+<p id="Training"></p>
+
+Below is are links to the Azure NetApp Files training pages on Microsoft Learn. These modules can be used to learn about Azure NetApp Files and prepare for the PoC.
+
+- <a href='https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-netapp-files/' target='_blank'>Introduction to Azure NetApp Files</a> 
+- <a href='https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-with-vmware-solution/' target='_blank'>Using Azure NetApp Files with AVS</a>
+- <a href='https://learn.microsoft.com/en-us/training/modules/choose-service-level-azure-netapp-files-hpc-applications/' target='_blank'>Choose a service level for Azure NetApp Files for HPC applications</a>
+- <a href='https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-sap-hana/' target='_blank'>Azure NetApp Files for SAP HANA</a>
+- <a href='https://learn.microsoft.com/en-us/training/modules/improve-azure-netapp-files-performance-hpc-eda-best-practices/' target='_blank'>Improve Azure NetApp Files performance for HPC EDA workloads</a>
+
 
 ## Azure NetApp Files Solutions Architectures:
 <p id="Architectures"></p>
