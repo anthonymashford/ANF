@@ -30,6 +30,9 @@ The following is a list of considersations for the Proof of Concept (PoC) for te
 ### Stakeholders:
 - Identify key stakeholders. These are teams or staff members required to support the PoC, such as, storage teams, networking teams, active directory teams, application owners, cloud platform teams.
 
+### Timeframe:
+- Define the timeframe for the PoC, including the start and end dates.
+  
 ### Azure Subscription(s):
 - An Azure subscription is required to create and manage Azure resources.
 
