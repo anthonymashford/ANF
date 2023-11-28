@@ -1,5 +1,5 @@
-<!--- ![PoC](poc.jpeg?raw=true "Azure NetApp Files Proof of Concept Planner") --->
-![PoC](https://github.com/anthonymashford/ANF/blob/229a7293f2cc4bad10c02cea51b0b61b61b2cc66/PoC/poc.jpeg)
+![PoC](poc.jpeg?raw=true "Azure NetApp Files Proof of Concept Planner")
+
 # Azure NetApp Files Proof of Concept Planner
 
 ### Document Purpose
