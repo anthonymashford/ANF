@@ -1,4 +1,4 @@
-![PoC](poc.jpeg?raw=true "Azure NetApp Files Proof of Concept Planner")
+<!--- ![PoC](poc.jpeg?raw=true "Azure NetApp Files Proof of Concept Planner") --->
 
 # Azure NetApp Files Proof of Concept Planner
 
